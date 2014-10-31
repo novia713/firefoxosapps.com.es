@@ -1,0 +1,4 @@
+name = FirefoxOS Apps Custom Module
+description = A custom module for FirefoxOS Apps site.
+package = Other
+core = 7.x
