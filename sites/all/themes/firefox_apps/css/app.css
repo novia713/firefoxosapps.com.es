@@ -52,15 +52,20 @@ summary {
 
 /* leandro */
 
-.view-relacionados {
+.view-relacionados, .txt-body {
      padding-top: 30px;
 
  }
 
- ul.breadcrumbs li:before { content: ">"; }
+ul.breadcrumbs li:before { content: ">"; }
+.main { background: whitesmoke url('/misc/cream-dust.png')  repeat 0 0;  }
 
+.centered  img {
+    display:block;
+    margin:auto;
+}
 
-
+.padded{ padding-left: 17px;}
 /* end leandro */
 
 
