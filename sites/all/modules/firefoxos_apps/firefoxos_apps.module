@@ -31,3 +31,8 @@ function firefoxos_apps_menu_alter(&$items) {
   // Disable the page node
   unset($items['node']);
 }
+
+function firefoxos_apps_admin_paths_alter(&$paths) {
+    // Treat login page as not administrative.
+    $paths['user'] = FALSE;
+}
